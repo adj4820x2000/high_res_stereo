@@ -1,0 +1,15 @@
+### Help
+# datapath  ->  test data path
+# loadmodel ->  pretrained model path
+# outdir    ->  output direction
+# clean:    ->  clean up output using entropy estimation
+# testres:  ->  test time resolution ratio
+# max_disp: ->  maximum disparity to search for
+
+
+datapath: './data-my/KITTI15'
+loadmodel: './weights/960px_alldata_nodsloss.tar'
+outdir: './output'
+clean: -1
+testres: 1
+max_disp: -1

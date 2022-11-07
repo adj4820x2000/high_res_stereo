@@ -1,0 +1,5 @@
+tensorflow-gpu==1.15
+tensorboardX>=1.4
+networkx==2.3
+scipy==1.2
+opencv-python

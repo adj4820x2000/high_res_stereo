@@ -1,0 +1,17 @@
+### Help
+# maxdisp   ->  maxium disparity
+# logname   ->  log name
+# database  ->  dataset path
+# epochs    ->  number of epochs to train
+# batchsize ->  samples per batch
+# loadmodel ->  pretrained model path
+# savemodel ->  save model path
+
+
+maxdisp: 384
+logname: 'log'
+database: './dataset'
+epochs: 20
+batchsize: 2
+loadmodel:
+savemodel: './model_output'
